@@ -30,7 +30,9 @@ int main()
     cout<<"Enter the strings: "<<endl;
     for(int i=0; i<n; i++)
     {
-        cin>>arr[i];
+        string z;
+        cin>>z;
+        arr.push_back(z);
     }
     findAllAnagrams(arr);
     return 0;
