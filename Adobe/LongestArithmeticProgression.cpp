@@ -29,7 +29,7 @@ int longestAp(int arr[], int n)
             }
 
         }
-        whie(i>=0)
+        while(i>=0)
         {
             table[i][j]=2;
             i--;
